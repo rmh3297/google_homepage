@@ -20,19 +20,24 @@ li {
     color: #000;
     opacity: 0.75;
     font-size: 13px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .leftlinks {
     float: left;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .rightlinks {
     float:right;
-    padding: 10px;
+    padding-top: 15px;
 }
 .signin {
     border: 1px solid #4285f4;
     line-height: 28px;
-    padding: 0 12px;
+    margin-top: 7px;
+    margin-right: 7px;
+    padding-top 15px;
     background-color: #2271f0;
     font-weight: bold;
     outline: none;
@@ -64,10 +69,15 @@ li {
     color: #5f6368;
     font-size: small;
     background-color: rgba(235, 213, 213, 0.54);
+    padding: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .footerleft {
     float: left;
 }
 .footerright {
     float: right;
+    margin-right: 5px;
 }
